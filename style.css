@@ -54,14 +54,14 @@ nav {
 }
 
 .description {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 10px;
-  width: 25%;
-  height: 100%;
-  padding: 0px 1rem;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 30%;
+    height: 100%;
+    padding: 0px 1rem;
 }
 
 .description-text {
@@ -100,9 +100,9 @@ nav {
 }
 
 .image img {
-  border: 1px solid black;
-  height: 200px;
-  width: auto;
+    border: 1px solid black;
+    height: 200px;
+    width: 480px;
 }
 
 .random-image-container {
