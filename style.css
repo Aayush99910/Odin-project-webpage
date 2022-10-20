@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inter:wght@400;700&family=Kreon&family=Mirza&family=Roboto:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,11 +16,121 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
-    background-color: gray;
+    background-color: #2380C3;
     color: white;
+}
+
+.heading-text {
+  font-family: 'Inter', san-serif;
+  font-size: 40px;
 }
 
 nav {
     display: flex;
     gap: 20px;
+    margin-right: 10px;
+}
+
+.about,
+.contact,
+.sale {
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.about:hover,
+.contact:hover,
+.sale:hover  {
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+}
+
+.description-container {
+  display: flex;
+  padding: 20px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  width: 25%;
+  height: 100%;
+  padding: 0px 1rem;
+}
+
+.description-text {
+  font-family: 'Kreon', serif;
+  font-size: 33px;
+}
+
+.description p {
+  color: #626161;
+  font-family: font-family: 'Imprima', sans-serif;
+  font-size: 23px;
+}
+
+.anchor-container {
+  display: flex;
+  gap: 15px;
+}
+
+.anchor-container a {
+  text-decoration: none;
+  color: #091CCF;
+  font-family: 'Roboto', sans serif;
+  font-size: 17px;
+}
+
+.anchor-container a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+
+.image img {
+  border: 1px solid black;
+  height: auto;
+  width: 450px;
+}
+
+.random-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.random-image-container h2 {
+  font-family: 'Mirza', cursive;
+  font-size: 40px;
+}
+
+.image-container {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column;
+  align-item: center;
+}
+
+.image-item img{
+  height: auto;
+  width: 200px;
+  border: 1px solid black;
 }
