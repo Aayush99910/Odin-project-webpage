@@ -11,6 +11,62 @@ body {
     background-color: #EEEEEE;
 }
 
+@media (max-width: 800px) {
+  .heading-text{
+    font-size: 30px;
+  }
+
+  .about,
+  .contact,
+  .sale{
+    font-size: 15px;
+  }
+
+  .description-text{
+    font-size: 25px;
+  }
+
+  .description p {
+    font-size: 15px;
+  }
+
+  .anchor-container a {
+    font-size: 12px;
+  }
+
+  .image-item img{
+    height: 90px;
+  }
+}
+
+@media (min-width: 771px) and (max-width: 1300px) {
+  .heading-text{
+    font-size: 40px;
+  }
+
+  .about,
+  .contact,
+  .sale{
+    font-size: 18px;
+  }
+
+  .description-text{
+    font-size: 33px;
+  }
+
+  .description p{
+    font-size: 18px;
+  }
+
+  .anchor-container a {
+    font-size: 17px;
+  }
+
+  .image-item img{
+    height: 120px;
+  }
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -22,7 +78,7 @@ header {
 
 .heading-text {
   font-family: 'Inter', san-serif;
-  font-size: 40px;
+  white-space: nowrap;
 }
 
 nav {
@@ -37,7 +93,6 @@ nav {
   font-family: 'Inter', sans-serif;
   text-decoration: none;
   color: white;
-  font-size: 20px;
 }
 
 .about:hover,
@@ -53,7 +108,6 @@ nav {
    padding: 20px;
    justify-content: center;
    align-items: center;
-   height: 400px;
 }
 
 .description {
@@ -69,13 +123,11 @@ nav {
 
 .description-text {
   font-family: 'Kreon', serif;
-  font-size: 33px;
 }
 
 .description p {
   color: #626161;
   font-family: 'Imprima', sans-serif;
-  font-size: 23px;
 }
 
 .anchor-container {
@@ -87,7 +139,7 @@ nav {
   text-decoration: none;
   color: #091CCF;
   font-family: 'Roboto', sans serif;
-  font-size: 17px;
+  white-space: nowrap;
 }
 
 .anchor-container a:hover {
@@ -136,7 +188,6 @@ nav {
 }
 
 .image-item img{
-  height: 150px;
   width: auto;
 }
 
